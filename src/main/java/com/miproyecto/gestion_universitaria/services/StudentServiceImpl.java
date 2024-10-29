@@ -1,9 +1,8 @@
 package com.miproyecto.gestion_universitaria.services;
 
-import com.miproyecto.gestion_universitaria.DTO.CourseDTO;
+
 import com.miproyecto.gestion_universitaria.DTO.CourseWithTeacherDTO;
 import com.miproyecto.gestion_universitaria.DTO.StudentDTO;
-import com.miproyecto.gestion_universitaria.persistance.entities.CourseEntity;
 import com.miproyecto.gestion_universitaria.persistance.entities.StudentEntity;
 import com.miproyecto.gestion_universitaria.persistance.repositories.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
