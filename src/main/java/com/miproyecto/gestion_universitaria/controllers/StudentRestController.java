@@ -1,6 +1,5 @@
 package com.miproyecto.gestion_universitaria.controllers;
 
-import com.miproyecto.gestion_universitaria.DTO.CourseDTO;
 import com.miproyecto.gestion_universitaria.DTO.StudentDTO;
 import com.miproyecto.gestion_universitaria.persistance.entities.CourseEntity;
 import com.miproyecto.gestion_universitaria.persistance.entities.StudentEntity;
@@ -14,8 +13,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.List;
 
 
 @RestController

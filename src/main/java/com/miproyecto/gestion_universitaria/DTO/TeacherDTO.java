@@ -1,6 +1,5 @@
 package com.miproyecto.gestion_universitaria.DTO;
 
-import com.miproyecto.gestion_universitaria.persistance.entities.CourseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

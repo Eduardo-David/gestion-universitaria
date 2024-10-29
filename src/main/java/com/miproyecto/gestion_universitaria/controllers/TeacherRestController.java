@@ -2,13 +2,11 @@ package com.miproyecto.gestion_universitaria.controllers;
 
 import com.miproyecto.gestion_universitaria.DTO.TeacherDTO;
 import com.miproyecto.gestion_universitaria.persistance.entities.CourseEntity;
-import com.miproyecto.gestion_universitaria.persistance.entities.StudentEntity;
 import com.miproyecto.gestion_universitaria.persistance.entities.TeacherEntity;
 import com.miproyecto.gestion_universitaria.persistance.repositories.TeacherRepository;
 import com.miproyecto.gestion_universitaria.services.CourseServiceImpl;
 import com.miproyecto.gestion_universitaria.services.TeacherServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
